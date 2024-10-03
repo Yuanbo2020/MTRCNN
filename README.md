@@ -1,10 +1,10 @@
 # Run models
 
--1) Copy Dataset.7z to the application folder under `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`
+- 1) Copy Dataset.7z to the application folder under `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`
 
--2) Unzip the Dataset.7z, Meta_data.7z, and Pretrained_models.7z
+- 2) Unzip the Dataset.7z, Meta_data.7z, and Pretrained_models.7z
 
--3) For the emotion arousal valence classification task and the emotion gesture classification task, enter the application folder of `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`, respectively.
+- 3) For the emotion arousal valence classification task and the emotion gesture classification task, enter the application folder of `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`, respectively.
 
 # Training
 
