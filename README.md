@@ -1,10 +1,10 @@
 # Run models
 
-- 1) Copy Dataset.7z to the application folder under `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`
+- 1\) Copy Dataset.7z to the application folder under `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`
 
-- 2) Unzip the Dataset.7z, Meta_data.7z, and Pretrained_models.7z
+- 2\) Unzip the Dataset.7z, Meta_data.7z, and Pretrained_models.7z
 
-- 3) For the emotion arousal valence classification task and the emotion gesture classification task, enter the application folder of `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`, respectively.
+- 3\) For the emotion arousal valence classification task and the emotion gesture classification task, enter the application folder of `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`, respectively.
 
 # Training
 
@@ -98,8 +98,8 @@ Params: 1.58 M; Acc:  61.67  %
 python Inference.py -model YAMNet
 ----------------------------------------------------------------------------------------
 using model:  YAMNet
-Number of 100 audio clips in testing
-Params: 3.21 M; Acc:  29.67  %
+Number of 60 audios in testing
+Params: 3.21 M; Acc:  63.33  %
 ```
 
 ### 2.3) MobileNetV2 
@@ -107,26 +107,22 @@ Params: 3.21 M; Acc:  29.67  %
 python Inference.py -model MobileNetV2
 ----------------------------------------------------------------------------------------
 using model:  MobileNetV2
-Number of 100 audio clips in testing
-Params: 2.23 M; Acc:  45.33  %
+Number of 60 audios in testing
+Params: 2.23 M; Acc:  73.33  %
 ```
 
 ### 2.4) PANNs 
 ```python 
 python Inference.py -model PANNs
 ----------------------------------------------------------------------------------------
-using model:  PANNs
-Number of 100 audio clips in testing
-Params: 79.68 M; Acc:  49.67  %
+ 
 ```
 
 ### 2.5) PANNs_PreW 
 ```python 
 python Inference.py -model PANNs_PreW
 ----------------------------------------------------------------------------------------
-using model:  PANNs_PreW
-Number of 100 audio clips in testing
-Params: 79.68 M; Acc:  55.33  %
+ 
 ```
 
 ### 2.6) MTRCNN 
@@ -134,6 +130,6 @@ Params: 79.68 M; Acc:  55.33  %
 python Inference.py -model MTRCNN
 ----------------------------------------------------------------------------------------
 using model:  MTRCNN
-Number of 100 audio clips in testing
-Params: 0.24 M; Acc:  56.33  %
+Number of 60 audios in testing
+Params: 0.24 M; Acc:  85.00  %
 ```
