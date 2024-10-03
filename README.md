@@ -1,6 +1,6 @@
 # Run models
 
-```1) Copy Dataset.7z to the application folder under `Emotion_arousal_valence_classification` and `Emotion_gesture_classification```` 
+```1) Copy Dataset.7z to the application folder under `Emotion_arousal_valence_classification` and `Emotion_gesture_classification` ``` 
 
 ```2) Unzip the Dataset.7z, Meta_data.7z, and Pretrained_models.7z```
 
