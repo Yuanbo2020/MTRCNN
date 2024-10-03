@@ -115,14 +115,14 @@ Params: 2.23 M; Acc:  73.33  %
 ```python 
 python Inference.py -model PANNs
 ----------------------------------------------------------------------------------------
- 
+The model is large in size, and the uploaded data and models have exceeded 1 GB. Uploading this model further will exceed the GitHub storage limit. Please follow the training instructions to train this model yourself.
 ```
 
 ### 2.5) PANNs_PreW 
 ```python 
 python Inference.py -model PANNs_PreW
 ----------------------------------------------------------------------------------------
- 
+The model is large in size, and the uploaded data and models have exceeded 1 GB. Uploading this model further will exceed the GitHub storage limit. Please follow the training instructions to train this model yourself.
 ```
 
 ### 2.6) MTRCNN 
@@ -133,3 +133,6 @@ using model:  MTRCNN
 Number of 60 audios in testing
 Params: 0.24 M; Acc:  85.00  %
 ```
+
+
+To be continued...
