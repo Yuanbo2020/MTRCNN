@@ -1,3 +1,17 @@
+# Citation
+Please consider citing our paper as
+```bibtex
+@INPROCEEDINGS{10890031,
+  author={Hou, Yuanbo and Ren, Qiaoqiao and Wang, Wenwu and Botteldooren, Dick},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Sound-Based Recognition of Touch Gestures and Emotions for Enhanced Human-Robot Interaction}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Emotion recognition;Privacy;Neural networks;Human-robot interaction;Humanoid robots;Skin;Real-time systems;Low latency communication;Speech processing;Signal resolution;Affective computing;emotion classification;touch gestures;humanoid robots;multi-temporal resolution CNN},
+  doi={10.1109/ICASSP49660.2025.10890031}}
+```
 # Run models
 
 - 1\) Copy Dataset.7z to the application folder under `Emotion_arousal_valence_classification` and `Emotion_gesture_classification`
@@ -134,5 +148,3 @@ Number of 60 audios in testing
 Params: 0.24 M; Acc:  85.00  %
 ```
 
-
-To be continued...
