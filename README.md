@@ -1,5 +1,9 @@
+# Sound-Based Recognition of Touch Gestures and Emotions for Enhanced Human-Robot Interaction
+
+[Source paper ICASSP 2025](https://ieeexplore.ieee.org/document/10890031)
+
 # Citation
-Please consider citing our paper as
+If you find this work useful, please consider citing our paper as
 ```bibtex
 @INPROCEEDINGS{10890031,
   author={Hou, Yuanbo and Ren, Qiaoqiao and Wang, Wenwu and Botteldooren, Dick},
